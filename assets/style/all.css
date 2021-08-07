@@ -1,0 +1,133 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+.btn {
+  padding: 8px 32px; }
+
+.hr {
+  border-bottom: 1px solid #ced4da; }
+
+.fz-1 {
+  font-size: 8px; }
+
+.fz-2 {
+  font-size: 12px; }
+
+.fz-3 {
+  font-size: 14px; }
+
+.fz-4 {
+  font-size: 16px; }
+
+.fz-5 {
+  font-size: 20px; }
+
+.fz-6 {
+  font-size: 24px; }
+
+.mt-n3 {
+  margin-top: -16px; }
+
+.ml-4 {
+  margin-left: 32px; }
+
+.ml-5 {
+  margin-left: 40px; }
+
+.mr-4 {
+  margin-right: 32px; }
+
+.pl-4 {
+  padding-left: 32px; }
+
+.pr-4 {
+  padding-right: 32px; }
+
+.s-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50px; }
+
+a {
+  text-decoration: none;
+  color: #212529; }
+
+p {
+  margin-bottom: 0; }
+
+body {
+  font-family: "Lato", "Roboto Mono", monospace, "sans-serif"; }
+
+.content {
+  width: 920px;
+  padding: 32px;
+  min-height: 100vh; }
+
+.menu {
+  width: 296px;
+  padding: 32px 0;
+  min-height: 100vh; }
+  .menu--logo {
+    text-indent: 101%;
+    overflow: hidden;
+    white-space: nowrap;
+    background: url("../images/logo-ANSWER.svg") no-repeat center center/contain;
+    width: 150px;
+    margin-bottom: 24px;
+    height: 40px; }
+
+.list-group {
+  width: 320px; }
+  .list-group-item {
+    border: 1px solid #ced4da; }
+
+.workList {
+  width: 40%; }
+  .workList__item {
+    padding: 12px; }
+
+.workPost {
+  width: 60%; }
+  .workPost__list {
+    position: relative; }
+  .workPost__list__replyImpunt {
+    position: absolute;
+    z-index: 1;
+    margin: 0 -16px;
+    width: 100%; }
+    .workPost__list__replyImpunt__banner {
+      padding: 8px 5px; }
+    .workPost__list__replyImpunt--text {
+      margin-bottom: 152px;
+      color: #ced4da; }
+  .workPost__list__replyContent--text {
+    margin-bottom: 23px; }
+  .workPost__list__replyContent--list {
+    display: inline-block;
+    text-indent: 8px; }
+    .workPost__list__replyContent--list::before {
+      content: "●";
+      display: inline-block; }
+
+.table > :not(caption) > * > * {
+  padding: 19px 8px 17px 8px; }
+
+.form-control {
+  border-color: #212529; }
+
+.page-item.active .page-link {
+  background-color: #198754; }
+
+.table {
+  margin-bottom: 64px; }
+
+.card--img {
+  text-indent: 101%;
+  overflow: hidden;
+  white-space: nowrap;
+  background: url("../images/emir.jpeg") no-repeat center center/cover;
+  width: 141px;
+  height: 150px; }
+
+/*# sourceMappingURL=all.css.map */
