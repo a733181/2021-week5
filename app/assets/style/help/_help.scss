@@ -1,0 +1,10 @@
+@mixin hide-text {
+  text-indent: 101%;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.s-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+}

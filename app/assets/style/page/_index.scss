@@ -1,0 +1,45 @@
+.list-group {
+  width: 320px;
+  &-item {
+    border: 1px solid $gray-400;
+  }
+}
+.workList {
+  width: 40%;
+  &__item {
+    padding: 12px;
+  }
+}
+
+.workPost {
+  width: 60%;
+  &__list {
+    position: relative;
+  }
+  &__list__replyImpunt {
+    position: absolute;
+    z-index: 1;
+    margin: 0 -16px;
+    width: 100%;
+    &__banner {
+      padding: 8px 5px;
+    }
+    &--text {
+      margin-bottom: 152px;
+      color: $gray-400;
+    }
+  }
+  &__list__replyContent {
+    &--text {
+      margin-bottom: 23px;
+    }
+    &--list {
+      display: inline-block;
+      text-indent: 8px;
+      &::before {
+        content: "●";
+        display: inline-block;
+      }
+    }
+  }
+}

@@ -1,0 +1,55 @@
+.btn {
+  padding: 8px 32px;
+}
+.hr {
+  border-bottom: 1px solid $gray-400;
+}
+
+.fz {
+  &-1 {
+    font-size: $font-size * 1; //8px
+  }
+  &-2 {
+    font-size: $font-size * 1.5; //12px
+  }
+  &-3 {
+    font-size: $font-size * 1.75; //14px
+  }
+  &-4 {
+    font-size: $font-size * 2; //16px
+  }
+  &-5 {
+    font-size: $font-size * 2.5; //20px
+  }
+  &-6 {
+    font-size: $font-size * 3; //24px
+  }
+}
+.mt {
+  &-n3 {
+    margin-top: -($spacing * 2); //16px
+  }
+}
+.ml {
+  &-4 {
+    margin-left: $spacing * 4; //32px
+  }
+  &-5 {
+    margin-left: $spacing * 5; //40px
+  }
+}
+.mr {
+  &-4 {
+    margin-right: $spacing * 4; //32px
+  }
+}
+.pl {
+  &-4 {
+    padding-left: $spacing * 4; //32px
+  }
+}
+.pr {
+  &-4 {
+    padding-right: $spacing * 4; //32px
+  }
+}
