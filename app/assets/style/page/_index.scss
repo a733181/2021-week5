@@ -33,13 +33,5 @@
     &--text {
       margin-bottom: 23px;
     }
-    &--list {
-      display: inline-block;
-      text-indent: 8px;
-      &::before {
-        content: "●";
-        display: inline-block;
-      }
-    }
   }
 }

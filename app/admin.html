@@ -3,6 +3,10 @@ title: Assignment
 layout: ./app/layout.ejs
 engine: ejs
 current: index
+assignmentSelected: d-none
+assignmentDefault: d-block
+adminSelected: d-block
+adminDefault: d-none
 ---
 
 <div class="d-flex justify-content-between align-items-center mb-5">
@@ -46,12 +50,14 @@ current: index
       <td>Emir Wicks</td>
       <td>emir.wicks@mail.com</td>
       <td>Yes</td>
-      <td class="d-flex justify-content-end">
-        <a href="#" data-bs-toggle="modal" data-bs-target="#viewAdmin"
-        ><span class="material-icons"> visibility </span></a>
-        <a  href="#"
-        data-bs-toggle="modal"
-        data-bs-target="#editAdmin"><span class="material-icons ms-4"> mode_edit </span></a>
+      <td>
+        <div class="d-flex justify-content-end">
+          <a href="#" data-bs-toggle="modal" data-bs-target="#viewAdmin"
+          ><span class="material-icons"> visibility </span></a>
+          <a  href="#"
+          data-bs-toggle="modal"
+          data-bs-target="#editAdmin"><span class="material-icons ms-4"> mode_edit </span></a>
+        </div>
       </td>
     </tr>
     <tr>
@@ -59,9 +65,11 @@ current: index
       <td>Zaina Goldsmith</td>
       <td>zaina.goldsmith@mail.com</td>
       <td>Yes</td>
-      <td class="d-flex justify-content-end"> 
-        <span class="material-icons"> visibility </span>
-        <span class="material-icons ms-4"> mode_edit </span>
+      <td> 
+        <div class="d-flex justify-content-end">
+          <span class="material-icons"> visibility </span>
+          <span class="material-icons ms-4"> mode_edit </span>
+        </div>
       </td>
     </tr>
     <tr>
@@ -69,9 +77,11 @@ current: index
       <td>Mahima Lopez</td>
       <td>mahima.lopez@mail.com</td>
       <td>Yes</td>
-      <td class="d-flex justify-content-end"> 
-        <span class="material-icons"> visibility </span>
-        <span class="material-icons ms-4"> mode_edit </span>
+      <td> 
+        <div class="d-flex justify-content-end">
+          <span class="material-icons"> visibility </span>
+          <span class="material-icons ms-4"> mode_edit </span>
+        </div>
       </td>
     </tr>
     <tr>
@@ -79,9 +89,11 @@ current: index
       <td>Pharrell Murray</td>
       <td>pharrell.murray@mail.com</td>
       <td>Yes</td>
-      <td class="d-flex justify-content-end"> 
-        <span class="material-icons"> visibility </span>
-        <span class="material-icons ms-4"> mode_edit </span>
+      <td> 
+        <div class="d-flex justify-content-end">
+          <span class="material-icons"> visibility </span>
+          <span class="material-icons ms-4"> mode_edit </span>
+        </div>
       </td>
     </tr>
     <tr>
@@ -89,9 +101,11 @@ current: index
       <td>Annika Mcbride</td>
       <td>annika.mcbride@mail.com</td>
       <td>Yes</td>
-      <td class="d-flex justify-content-end"> 
-        <span class="material-icons"> visibility </span>
-        <span class="material-icons ms-4"> mode_edit </span>
+      <td>
+        <div class="d-flex justify-content-end">
+          <span class="material-icons"> visibility </span>
+          <span class="material-icons ms-4"> mode_edit </span>
+        </div>
       </td>
     </tr>
     <tr>
@@ -99,9 +113,11 @@ current: index
       <td>Fatimah Clark</td>
       <td>fatimah.clark@mail.com</td>
       <td>Yes</td>
-      <td class="d-flex justify-content-end"> 
-        <span class="material-icons"> visibility </span>
-        <span class="material-icons ms-4"> mode_edit </span>
+      <td> 
+        <div class="d-flex justify-content-end">
+          <span class="material-icons"> visibility </span>
+          <span class="material-icons ms-4"> mode_edit </span>
+        </div>
       </td>
     </tr>
     <tr>
@@ -109,9 +125,11 @@ current: index
       <td>Klaudia Rhodes</td>
       <td>klaudia.rhodes@mail.com</td>
       <td>Yes</td>
-      <td class="d-flex justify-content-end"> 
-        <span class="material-icons"> visibility </span>
-        <span class="material-icons ms-4"> mode_edit </span>
+      <td> 
+        <div class="d-flex justify-content-end">
+          <span class="material-icons"> visibility </span>
+          <span class="material-icons ms-4"> mode_edit </span>
+        </div>
       </td>
     </tr>
     <tr>
@@ -119,9 +137,11 @@ current: index
       <td>Tillie Lucero</td>
       <td>tillie.lucero@mail.com</td>
       <td>Yes</td>
-      <td class="d-flex justify-content-end"> 
-        <span class="material-icons"> visibility </span>
-        <span class="material-icons ms-4"> mode_edit </span>
+      <td> 
+        <div class="d-flex justify-content-end">
+          <span class="material-icons"> visibility </span>
+          <span class="material-icons ms-4"> mode_edit </span>
+        </div>
       </td>
     </tr>
     <tr>
@@ -129,9 +149,11 @@ current: index
       <td>Sabrina Stephenson</td>
       <td>sabrina.stephenson@mail.com</td>
       <td>Yes</td>
-      <td class="d-flex justify-content-end"> 
-        <span class="material-icons"> visibility </span>
-        <span class="material-icons ms-4"> mode_edit </span>
+      <td> 
+        <div class="d-flex justify-content-end">
+          <span class="material-icons"> visibility </span>
+          <span class="material-icons ms-4"> mode_edit </span>
+        </div>
       </td>
     </tr>
     <tr>
@@ -139,9 +161,11 @@ current: index
       <td>Annie Smith</td>
       <td>annie.smith@mail.com</td>
       <td>Yes</td>
-      <td class="d-flex justify-content-end"> 
-        <span class="material-icons"> visibility </span>
-        <span class="material-icons ms-4"> mode_edit </span>
+      <td> 
+        <div class="d-flex justify-content-end">
+          <span class="material-icons"> visibility </span>
+          <span class="material-icons ms-4"> mode_edit </span>
+        </div>
       </td>
     </tr>
   </tbody>

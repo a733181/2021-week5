@@ -32,8 +32,16 @@
               <p>Question</p>
             </a>
           </li>
-          <li class="nav-item mb-4">
-            <a class="d-flex fw-bold link-success pl-4" href="index.html">
+          <!-- selected -->
+          <li class="nav-item mb-4 nav-selected <%- assignmentSelected %>">
+            <a class="d-flex fw-bold link-success pl-4 ml-n1" href="index.html">
+              <span class="material-icons me-3"> assignment </span>
+              <p>Assignment</p>
+            </a>
+          </li>
+          <!-- default -->
+          <li class="nav-item mb-4 <%- assignmentDefault %>">
+            <a class="d-flex fw-bold pl-4" href="index.html">
               <span class="material-icons me-3"> assignment </span>
               <p>Assignment</p>
             </a>
@@ -44,7 +52,15 @@
               <p>Course</p></a
             >
           </li>
-          <li class="nav-item mb-4">
+          <!-- selected -->
+          <li class="nav-item mb-4 nav-selected <%- adminSelected %>">
+            <a class="d-flex fw-bold link-success pl-4 ml-n1" href="admin.html">
+              <span class="material-icons me-3"> people </span>
+              <p>Admin</p>
+            </a>
+          </li>
+          <!-- default -->
+          <li class="nav-item mb-4 <%- adminDefault %>">
             <a class="d-flex fw-bold pl-4" href="admin.html">
               <span class="material-icons me-3"> people </span>
               <p>Admin</p>
