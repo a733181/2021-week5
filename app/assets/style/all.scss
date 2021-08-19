@@ -1,8 +1,7 @@
-@import "config/variables";
+@import "utils/variables";
+@import "utils/utilities";
 
-@import "utilities/utilities";
-
-@import "help/help";
+@import "utils/help";
 
 @import "base/base";
 
