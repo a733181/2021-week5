@@ -32,8 +32,16 @@
               <p>Question</p>
             </a>
           </li>
-          <li class="nav-item mb-4">
-            <a class="d-flex fw-bold link-success pl-4" href="index.html">
+          <!-- selected -->
+          <li class="nav-item mb-4 nav-selected d-none">
+            <a class="d-flex fw-bold link-success pl-4 ml-n1" href="index.html">
+              <span class="material-icons me-3"> assignment </span>
+              <p>Assignment</p>
+            </a>
+          </li>
+          <!-- default -->
+          <li class="nav-item mb-4 d-block">
+            <a class="d-flex fw-bold pl-4" href="index.html">
               <span class="material-icons me-3"> assignment </span>
               <p>Assignment</p>
             </a>
@@ -44,7 +52,15 @@
               <p>Course</p></a
             >
           </li>
-          <li class="nav-item mb-4">
+          <!-- selected -->
+          <li class="nav-item mb-4 nav-selected d-block">
+            <a class="d-flex fw-bold link-success pl-4 ml-n1" href="admin.html">
+              <span class="material-icons me-3"> people </span>
+              <p>Admin</p>
+            </a>
+          </li>
+          <!-- default -->
+          <li class="nav-item mb-4 d-none">
             <a class="d-flex fw-bold pl-4" href="admin.html">
               <span class="material-icons me-3"> people </span>
               <p>Admin</p>
@@ -113,12 +129,14 @@
       <td>Emir Wicks</td>
       <td>emir.wicks@mail.com</td>
       <td>Yes</td>
-      <td class="d-flex justify-content-end">
-        <a href="#" data-bs-toggle="modal" data-bs-target="#viewAdmin"
-        ><span class="material-icons"> visibility </span></a>
-        <a  href="#"
-        data-bs-toggle="modal"
-        data-bs-target="#editAdmin"><span class="material-icons ms-4"> mode_edit </span></a>
+      <td>
+        <div class="d-flex justify-content-end">
+          <a href="#" data-bs-toggle="modal" data-bs-target="#viewAdmin"
+          ><span class="material-icons"> visibility </span></a>
+          <a  href="#"
+          data-bs-toggle="modal"
+          data-bs-target="#editAdmin"><span class="material-icons ms-4"> mode_edit </span></a>
+        </div>
       </td>
     </tr>
     <tr>
@@ -126,9 +144,11 @@
       <td>Zaina Goldsmith</td>
       <td>zaina.goldsmith@mail.com</td>
       <td>Yes</td>
-      <td class="d-flex justify-content-end"> 
-        <span class="material-icons"> visibility </span>
-        <span class="material-icons ms-4"> mode_edit </span>
+      <td> 
+        <div class="d-flex justify-content-end">
+          <span class="material-icons"> visibility </span>
+          <span class="material-icons ms-4"> mode_edit </span>
+        </div>
       </td>
     </tr>
     <tr>
@@ -136,9 +156,11 @@
       <td>Mahima Lopez</td>
       <td>mahima.lopez@mail.com</td>
       <td>Yes</td>
-      <td class="d-flex justify-content-end"> 
-        <span class="material-icons"> visibility </span>
-        <span class="material-icons ms-4"> mode_edit </span>
+      <td> 
+        <div class="d-flex justify-content-end">
+          <span class="material-icons"> visibility </span>
+          <span class="material-icons ms-4"> mode_edit </span>
+        </div>
       </td>
     </tr>
     <tr>
@@ -146,9 +168,11 @@
       <td>Pharrell Murray</td>
       <td>pharrell.murray@mail.com</td>
       <td>Yes</td>
-      <td class="d-flex justify-content-end"> 
-        <span class="material-icons"> visibility </span>
-        <span class="material-icons ms-4"> mode_edit </span>
+      <td> 
+        <div class="d-flex justify-content-end">
+          <span class="material-icons"> visibility </span>
+          <span class="material-icons ms-4"> mode_edit </span>
+        </div>
       </td>
     </tr>
     <tr>
@@ -156,9 +180,11 @@
       <td>Annika Mcbride</td>
       <td>annika.mcbride@mail.com</td>
       <td>Yes</td>
-      <td class="d-flex justify-content-end"> 
-        <span class="material-icons"> visibility </span>
-        <span class="material-icons ms-4"> mode_edit </span>
+      <td>
+        <div class="d-flex justify-content-end">
+          <span class="material-icons"> visibility </span>
+          <span class="material-icons ms-4"> mode_edit </span>
+        </div>
       </td>
     </tr>
     <tr>
@@ -166,9 +192,11 @@
       <td>Fatimah Clark</td>
       <td>fatimah.clark@mail.com</td>
       <td>Yes</td>
-      <td class="d-flex justify-content-end"> 
-        <span class="material-icons"> visibility </span>
-        <span class="material-icons ms-4"> mode_edit </span>
+      <td> 
+        <div class="d-flex justify-content-end">
+          <span class="material-icons"> visibility </span>
+          <span class="material-icons ms-4"> mode_edit </span>
+        </div>
       </td>
     </tr>
     <tr>
@@ -176,9 +204,11 @@
       <td>Klaudia Rhodes</td>
       <td>klaudia.rhodes@mail.com</td>
       <td>Yes</td>
-      <td class="d-flex justify-content-end"> 
-        <span class="material-icons"> visibility </span>
-        <span class="material-icons ms-4"> mode_edit </span>
+      <td> 
+        <div class="d-flex justify-content-end">
+          <span class="material-icons"> visibility </span>
+          <span class="material-icons ms-4"> mode_edit </span>
+        </div>
       </td>
     </tr>
     <tr>
@@ -186,9 +216,11 @@
       <td>Tillie Lucero</td>
       <td>tillie.lucero@mail.com</td>
       <td>Yes</td>
-      <td class="d-flex justify-content-end"> 
-        <span class="material-icons"> visibility </span>
-        <span class="material-icons ms-4"> mode_edit </span>
+      <td> 
+        <div class="d-flex justify-content-end">
+          <span class="material-icons"> visibility </span>
+          <span class="material-icons ms-4"> mode_edit </span>
+        </div>
       </td>
     </tr>
     <tr>
@@ -196,9 +228,11 @@
       <td>Sabrina Stephenson</td>
       <td>sabrina.stephenson@mail.com</td>
       <td>Yes</td>
-      <td class="d-flex justify-content-end"> 
-        <span class="material-icons"> visibility </span>
-        <span class="material-icons ms-4"> mode_edit </span>
+      <td> 
+        <div class="d-flex justify-content-end">
+          <span class="material-icons"> visibility </span>
+          <span class="material-icons ms-4"> mode_edit </span>
+        </div>
       </td>
     </tr>
     <tr>
@@ -206,9 +240,11 @@
       <td>Annie Smith</td>
       <td>annie.smith@mail.com</td>
       <td>Yes</td>
-      <td class="d-flex justify-content-end"> 
-        <span class="material-icons"> visibility </span>
-        <span class="material-icons ms-4"> mode_edit </span>
+      <td> 
+        <div class="d-flex justify-content-end">
+          <span class="material-icons"> visibility </span>
+          <span class="material-icons ms-4"> mode_edit </span>
+        </div>
       </td>
     </tr>
   </tbody>
